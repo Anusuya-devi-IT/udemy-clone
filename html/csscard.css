@@ -1,0 +1,26 @@
+
+    div{
+        height:550px;
+        width:340px;
+        border:solid black 2px;
+        background-color: black;
+        
+    }
+    img{
+        margin:5px;
+    }
+    h1{
+      display:block;
+      width:150px;
+      color:white;
+    }
+    p{
+        color:white;
+    }
+    input:focus{
+        outline:solid red 2px;
+    }
+    input:hover{
+        background-color:greenyellow;
+        color:black;
+    }

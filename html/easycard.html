@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS CARD CREATION</title>
+    <style>
+        .card{
+            width:300px;
+            background-color: black;
+            color:white;
+            padding:20px;
+        }
+        .card__button{
+            background-color: transparent;
+            border: solid red 2px;
+            color:white;
+        }
+        /*.card__button:hover{
+            background-color: greenyellow;
+            color:black;
+
+        }*/
+        .card__button--red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!--PICSUM.photos IMAGES-->
+        <img class="card__img" src="https://picsum.dev/300/200">
+        <h1 class="card__heading">OOTY:QUEEN OF HILLS</h1>
+        <p class="card__describition">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit labore commodi quas error quo sequi aspernatur culpa voluptas corporis fugit libero deleniti vitae, expedita placeat praesentium sed laudantium dolorum possimus.</p>
+        <button class="card__button">Checkout</button>
+        <button class="card__button card__button--red">Delete</button>
+    </div>
+</body>
+</html>
