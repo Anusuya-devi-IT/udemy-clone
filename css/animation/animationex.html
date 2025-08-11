@@ -1,0 +1,36 @@
+<style>
+    div{
+        background-color:red;
+        width:100px;
+        height: 100px;
+        animation-name:movingbox;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      
+    }
+    @keyframes movingbox{
+       
+        0%{
+            margin-top: 0;
+            margin-left:0;
+        }
+        25%{
+            margin-top:100px;
+            margin-left: 0;
+        }
+        50%{
+            margin-left:100px;
+            margin-top:100px;
+        }
+        75%{
+            margin-top:0;
+            margin-left:100px;
+        }
+        100%
+        {
+         margin-top: 0;
+         margin-left:0;
+        }
+    }
+</style>
+<div></div>
